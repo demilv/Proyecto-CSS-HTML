@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(182, 173, 166);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.front{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    width:100%;
+    margin-bottom: 10px;
+    &_image{
+        width:90%
+    }
+}
+
+.navegador{
+    display:flex;
+    justify-content: space-around;
+    position: sticky;
+    &_link{
+        text-decoration: none; 
+        color: yellowgreen;      
+        @include boxConfig (black, rgb(33, 37, 105));       
+        padding: 15px;
+        margin-right: 6px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    }
+}

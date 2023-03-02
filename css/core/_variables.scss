@@ -1,0 +1,5 @@
+@mixin boxConfig ($colorShadow, $colorBackg){
+    background-color: $colorBackg;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px $colorShadow;
+}
