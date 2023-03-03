@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(182, 173, 166);
+    background-color: rgb(89, 35, 227);
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -20,6 +20,9 @@ header{
     display:flex;
     justify-content: space-around;
     position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
     &_link{
         text-decoration: none; 
         color: yellowgreen;      
