@@ -89,6 +89,7 @@ header {
 
 .selectiongrid {
   display: grid;
+  padding-top: 10px;
   gap: 5px;
   grid-auto-rows: 120px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -131,4 +132,20 @@ header {
   color: rgb(195, 131, 101);
 }
 
-/*Movil seria 3 imagenes, 1 por columna y luego 3 textos uno bajo el otro; Tablet seria Imagen y a la derecha el texto por cada una; desktop sería 3 imagenes y 3 textos en 2 filas*//*# sourceMappingURL=main.css.map */
+/*Movil seria 3 imagenes, 1 por columna y luego 3 textos uno bajo el otro; Tablet seria Imagen y a la derecha el texto por cada una; desktop sería 3 imagenes y 3 textos en 2 filas*/
+footer {
+  height: 40px;
+  background-color: black;
+  padding-top: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom_link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 10px;
+  padding-top: 10px;
+}/*# sourceMappingURL=main.css.map */
