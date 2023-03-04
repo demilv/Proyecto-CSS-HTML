@@ -20,16 +20,35 @@ header{
     display:flex;
     justify-content: space-around;
     position: sticky;
+    width: 100%;
     top:0;
     left:0;
     z-index: 100;
     &_link{
+        text-align: center;
         text-decoration: none; 
         color: yellowgreen;      
         @include boxConfig (black, rgb(33, 37, 105));       
-        padding: 15px;
+        padding: 12px;
         margin-right: 6px;
         font-size: 14px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /*width:10%  Para el responsive */
+        
     }
+      
 }
+@media (min-width: 768px) {
+    .navegador{
+        &_link{
+            width:100px;
+        }
+    }
+  }   
+  @media (min-width: 1200px) {
+    .navegador{
+        &_link{
+            width:200px;
+        }
+    }
+  }
