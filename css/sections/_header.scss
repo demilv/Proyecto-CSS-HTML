@@ -1,6 +1,5 @@
-header{
-    background-color: rgb(89, 35, 227);
-    display:flex;
+header{    
+    display:unset;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -10,13 +9,15 @@ header{
     justify-content: center;
     margin:auto;
     width:100%;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(89, 35, 227);
     &_image{
         width:90%
     }
 }
 
 .navegador{
+    background-color: rgb(89, 35, 227);
     display:flex;
     justify-content: space-around;
     position: sticky;
@@ -25,6 +26,7 @@ header{
     left:0;
     z-index: 100;
     &_link{
+        position: sticky;
         text-align: center;
         text-decoration: none; 
         color: yellowgreen;      
