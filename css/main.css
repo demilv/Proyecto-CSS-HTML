@@ -329,4 +329,95 @@ footer {
   color: aliceblue;
   font-size: 10px;
   padding-top: 10px;
+}
+
+.mainregistro {
+  height: 379px;
+}
+
+.labelform {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tituloregistro {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  width: 100%;
+  padding-top: 20%;
+  font-size: bold;
+  color: rgb(50, 87, 158);
+  font-size: 22px;
+}
+
+.registro {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  width: 100%;
+}
+.registro_form {
+  margin: 11% 0 3% 0;
+}
+.registro_form-input {
+  margin-bottom: 15%;
+  border: 2px solid orange;
+  border-radius: 8px;
+}
+
+.submitbig {
+  border: 2px solid rgb(125, 179, 142);
+  border-radius: 8px;
+  padding: 6%;
+}
+
+@media (min-width: 768px) {
+  .mainregistro {
+    height: 670px;
+  }
+  .tituloregistro {
+    padding-top: 8%;
+    font-size: 48px;
+  }
+  .labelform {
+    display: inline-block;
+    font-size: 42px;
+  }
+  .registro_form {
+    padding-bottom: 5.2%;
+  }
+  .registro_form-input {
+    width: 300px;
+    margin-bottom: 14.5%;
+  }
+  .submitbig {
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .mainregistro {
+    height: 800px;
+  }
+  .tituloregistro {
+    padding-top: 18%;
+    font-size: 48px;
+  }
+  .labelform {
+    display: inline-block;
+    font-size: 42px;
+  }
+  .registro_form {
+    margin-top: 9%;
+    padding-bottom: 4%;
+  }
+  .registro_form-input {
+    width: 300px;
+    margin-bottom: 7%;
+  }
+  .submitbig {
+    width: 150px;
+    height: 60px;
+  }
 }/*# sourceMappingURL=main.css.map */
